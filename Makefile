@@ -43,3 +43,6 @@ devapp: dist
 
 runpi: dist
 	PYTHONPATH=${PYTHONPATH}:./dist python dist/pi/control.py
+
+rundl: dist
+	PYTHONPATH=${PYTHONPATH}:./dist python dist/datalogger/main.py
